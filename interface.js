@@ -36,9 +36,10 @@ btnLogin.addEventListener("click", function(e){
     currentAcc = accounts.find(acc=>acc.userName === inputUsername.value);
 
     if(currentAcc?.pin === Number(inputPassword.value)){
-        window.location.href= "file:///D:/Impact/index.html"
-        userLogin.classList.remove("hidden");
-        loginUser.classList.add("hidden");
+        window.location.href="/index.html";
+        // window.location.href="index.html";
+        // userLogin.classList.remove("hidden");
+        // loginUser.classList.add("hidden");
     }
     else{
         alert("Wrong credentials");
