@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.cards{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.innerCards{
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  text-align: center;
+  background-color: black;
+  margin: 20px;
+  filter: grayscale(100);
+  cursor: pointer;
+  background: linear-gradient(to top, #000000ba, #000000ba), url(study.png) no-repeat top center;
+}
+
+.innerCards img{
+  transform: translate(-50px, 50px) scale(1.5);
+  
+}
+
+.innerCards .name{
+  transform: translate(0px, 60px);
+  font-size: xx-large;
+}

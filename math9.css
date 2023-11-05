@@ -1,20 +1,73 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+/* Section styles */
+section {
+  margin-bottom: 2em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+ul {
+  font-size: 0.8em;
+  margin-left: 2em;
+}
+
+/* Syllabus section styles */
 .syllabus {
-    border: 1px solid black;
-    text-align: center;
-  }
-  
-  /* Add a drop shadow to the section headings */
-  section h2 {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Add a hover effect to the book and video links */
-  .book-link, .video-link {
-    color: blue;
-    text-decoration: none;
-  }
-  
-  .book-link:hover, .video-link:hover {
-    color: red;
-    text-decoration: underline;
-  }
+  text-align: center;
+  border: 1px solid black;
+}
+
+/* Books section styles */
+.books {
+  background-color: lightblue;
+  padding: 1em;
+}
+
+/* Videos section styles */
+.videos {
+  background-color: lightpink;
+  padding: 1em;
+}
+
+/* Book link styles */
+.book-link {
+  font-weight: bold;
+  color: blue;
+  text-decoration: none;
+}
+
+.book-link:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/* Video link styles */
+.video-link {
+  font-weight: bold;
+  color: blue;
+  text-decoration: none;
+}
+
+.video-link:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/* Chapter heading styles */
+.books h3 {
+  font-size: 1.5em;
+}
+
+.videos h3 {
+  font-size: 1.5em;
+}
